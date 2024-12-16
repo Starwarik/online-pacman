@@ -7,6 +7,6 @@ class Form1(Form1Template):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
 
-    canvas = Canvas()
-    canvas.background = "red"
-    self.linear_panel_1.add_component(canvas)
+    self.canvas = Canvas()
+    
+    self.add_component(self.canvas)
