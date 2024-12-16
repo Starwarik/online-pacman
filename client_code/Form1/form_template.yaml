@@ -4,6 +4,17 @@ components:
   name: navbar_links
   properties: {}
   type: FlowPanel
+- components:
+  - layout_properties: {width: 239, x: 56.100006103515625, y: 43.100006103515625}
+    name: grid_panel_1
+    properties:
+      spacing:
+        padding: [null, null, null, null]
+    type: GridPanel
+  layout_properties: {slot: default}
+  name: xy_panel_1
+  properties: {height: 219}
+  type: XYPanel
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
