@@ -5,15 +5,17 @@ components:
   properties: {}
   type: FlowPanel
 - components:
-  - layout_properties: {width: 239, x: 56.100006103515625, y: 43.100006103515625}
-    name: grid_panel_1
-    properties:
-      spacing:
-        padding: [null, null, null, null]
-    type: GridPanel
+  - components:
+    - name: canvas_1
+      properties: {height: 173}
+      type: Canvas
+    layout_properties: {width: 361, x: 125.15000915527344, y: 35.15000915527344}
+    name: linear_panel_1
+    properties: {}
+    type: LinearPanel
   layout_properties: {slot: default}
   name: xy_panel_1
-  properties: {height: 219}
+  properties: {height: 266}
   type: XYPanel
 container:
   properties: {html: '@theme:standard-page.html'}
