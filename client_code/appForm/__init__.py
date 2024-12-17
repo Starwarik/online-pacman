@@ -12,13 +12,13 @@ class appForm(appFormTemplate):
     c = self.canvas
     print(c.get_height(), c.get_width())
     c.begin_path()
-    c.move_to(100,100)
-    c.line_to(100,200)
-    c.line_to(200,200)
+    c.move_to(10,10)
+    c.line_to(10,20)
+    c.line_to(20,20)
     c.close_path()
   
     c.stroke_style = "#2196F3"
-    c.line_width = 3
+    c.line_width = 1
     c.fill_style = "#E0E0E0"
   
     c.fill()
